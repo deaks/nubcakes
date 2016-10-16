@@ -1,17 +1,75 @@
-Ethernet, Endian-ness, and the Internet Protcol (v4)
+# Ethernet, Endian-ness, and the Internet Protocol (v4)
 
-Ethernet CSMA and CSMA/CD protocol, shared media and collisions (hub/repeater, taps), collision management with switches (switch/bridge), Ethernet MAC addressing and broadcast, collision/broadcast domain, the "LAN" concept
+This module discusses modern network principles and relies on a previous
+treatment of data organization including bits, octets/bytes, as well as
+some familiarity with the binary, and hexadecimal number systems.
 
-deaks on pseudocode and metasyntactic.variables: $var, {var}, A[idx], M[row][col] (except FORTRAN and MATLAB, sigh), <required> and [ optional ], foo/bar/baz/qux
 
-deaks on endian-ness: big endian, little endian, bi-endian; archaic: PDP endian
+## OSI Network Model
 
-IP(v4): classical network organization (classful) and modern  (classless, CIDR) subnetting concepts and practice; network/broadcast addresses of a subnet, local broadcast address; private network ranges, network byte order
+discussion of layers, relationships, and layer-to-layer communications
 
-LAN/WAN concepts: routing (router, gateway, default route)
 
-IPv4 and DHCP: 
+## Ethernet
 
-deaks on IPv4 directed broadcast: directed broadcast to a remote subnet, opt-in
+OSI "you are here" diagram inset for all viewgraphs
 
-deaks on IPv4 multicast: multicast IP addressing, IGMP and router interactions
+CSMA/CD protocol and why the addition of "/CD" was important
+
+introduction to shared media interfaces and collisions (hub,
+archaic: repeater)
+
+collision avoidance via switching (switch, archaic: bridge)
+
+Ethernet MAC addressing and broadcast, collision/broadcast domain and
+the "LAN" concept
+
+data integrity, checksums, CRCs, and message digests (hashes)
+
+Ethernet packet internals diagram
+
+
+## deaks corner -- pseudocode conventions and metasyntactic variables
+
+`$var`, `{var}`, `<var>`, `A[idx]`,
+`M[row][col]` (except FORTRAN and MATLAB, sigh)
+
+`foo`, `bar`, `baz`, `qux`
+
+
+## Endian-ness
+
+big endian, little endian, bi-endian; archaic: PDP endian
+
+
+## Internet Protocol version 4
+
+OSI "you are here" diagram inset for all viewgraphs
+
+classical network organization (classful) and modern  (classless, CIDR) subnetting concepts and practice; network/broadcast addresses of a subnet, local broadcast address; private network ranges, network byte order
+
+IPv4 packet internals diagram
+
+
+## LAN/WAN concepts
+
+routing (router, gateway, default route)
+
+
+## Dynamic Configuration with IPv4
+
+dhcp, link-local addressing
+
+dhcp packet diagram
+
+
+## deaks corner -- IPv4 directed broadcast
+
+directed broadcast to a remote subnet, opt-in at switches
+
+
+## deaks corner -- IPv4 multicast
+
+multicast IP addressing, IGMP, and router interactions
+
+data distribution modes (1:many, many:many) and applications for audio

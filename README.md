@@ -5,6 +5,7 @@ newbies and facilitate more in-depth conversations, engagements, and
 learning in the domains  of computer science, programming, network
 protocols, and computer security; i.e. "baking a nubcake".
 
+
 ## Recipie
 
 Content is prepared as a sequence of modules (ingredients) and is
@@ -23,5 +24,5 @@ because using **_π_** would possibly be taking the analogy too far.
 |Ingredient|Description|
 |---|---|
 |2|Basics|
-|2.7|Ethernet, Endianness, and the Internet Protocol version 4|
+|2.7|Ethernet, Endian-ness, and the Internet Protocol version 4|
 |2.71|UDP, TCP, and Wireshark
