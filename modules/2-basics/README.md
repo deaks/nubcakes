@@ -4,9 +4,27 @@ This module provides a basic foundation to be built upon by subsequent
 modules.
 
 
+## Number Systems
+
+decimal, binary, hexadecimal, octal examples
+
+`16`=`0b10000`=`0x10`=`020`
+
+`255`=`0b11111111`=`0xFF`=`0377`
+
+
+decimal: Windows subnet masks, IPv4 addressing
+
+binary: subnet masks, network prefix [lengths]
+
+hexadecimal: Ethernet MAC addresses, IPv4 subnet masks, IPv6 addressing
+
+octal: permissions for chmod/ls (`664`=`-rw-rw-r--`)
+
+
 ## Data Organization
 
-bit, BYTE/octet
+8 bits => BYTE/octet
 
 WORD convention carried over from 16-bit days; DWORD, QWORD
 
