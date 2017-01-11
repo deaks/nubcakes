@@ -52,6 +52,9 @@ tested. Unlike other releases, the name `sid` sticks with unstable and
 many desktop users may find unstable is tricky to use for daily work
 due to its rapidly changing nature.
 
+[Jessie Wheezy Sarge](https://mat.exon.name/releasepics/)
+[Testing to Release](https://www.lucas-nussbaum.net/blog/?p=775)
+
 ### Distributions Derived from Debian
 
 Many distributions are derived in some way from Debian including the
@@ -62,6 +65,9 @@ As a more progressive and up-to-date distribution which cut it's teeth
 with desktop Linux users Ubuntu tends to derive from Debian testing and
 unstable releases whereas packages included in stable would tend to be
 lack the new features that Ubuntu target userbase looks for.
+
+[List of Linux
+Distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
 ### Debian Package Management
 
